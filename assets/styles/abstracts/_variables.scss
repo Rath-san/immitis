@@ -1,0 +1,98 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+$primary: #175d9d;
+$secondary: #e1ecf4;
+
+$cta: #ec9a1e;
+
+$disabled: #ccc;
+$disabled-text: #eaeaea;
+
+$border-color-basic: #a2bed8;
+
+// scrollbar
+$scrollbar-track-color: #cee1ed;
+$scrollbar-thumb-color: $primary;
+
+// text style
+$text-transform: capitalize;
+
+// contrac
+$theme-color-interval: 8%;
+$yiq-contrasted-threshold: 200;
+
+$yiq-text-dark: #7f7f7f;
+
+// $yiq-text-light: $white !default;
+
+// Body
+$body-bg: #f4f7f9;
+$body-color: #7f7f7f;
+
+// Tables
+$table-head-font-size: 1.125rem;
+$table-body-font-size: 1rem;
+
+$table-dark-bg: $primary;
+$table-dark-border-color: #fff;
+$table-border-color: $border-color-basic;
+$table-accent-bg: #e6eef6;
+
+$table-shadow: 0px 0px 15px 0px rgba($primary, 0.25);
+
+// Buttons
+$btn-padding-y-lg: 0.9375rem;
+$btn-padding-x-lg: 3.75rem;
+$btn-line-height-lg: 1.25;
+
+$btn-cta-shadow: 5px 5px 25px 0px rgba($cta, 0.2);
+
+$btn-text-transform: capitalize;
+
+// Components
+$border-radius: 0.1875rem;
+$border-radius-lg: 0.1875rem;
+$border-radius-sm: 0.1875rem;
+
+// fonts
+$font-size-base: 1rem;
+
+// inputs
+$input-focus-border-color: $cta;
+$input-focus-box-shadow: 0px 0px 5px 0px rgba($cta, 0.25);
+
+// custom select
+$custom-select-indicator-color: red;
+
+// $custom-select-indicator: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='#{$custom-select-indicator-color}' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E"), "#", "%23");
+$custom-select-bg-size: 18px 10px;
+$custom-select-indicator: url("data:image/svg+xml,%3C!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0%29--%3E%3Csvg id='Layer_1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewbox='0 0 1 1' enable-background='new 0 0 4 4' xml:space='preserve'%3E%3Cpolyline fill='none' stroke='%237F7F7F' stroke-width='1.5' stroke-miterlimit='10' points='17.4, 0.4 8.9, 8.9 0.4, 0.4 '%3E%3C/polyline%3E%3C/svg%3E");
+
+// labels
+$label-default-size: $font-size-base * 1.125;
+$label-default-color: $primary;
+$label-text-transform: capitalize;
+
+// navbar
+$navbar-padding-y: 0;
+$navbar-padding-x: 0;
+
+$navbar-light-active-color: $primary;
+$navbar-light-color: $body-color;
+$navbar-text-transform: capitalize;
+
+// breadcrumb
+$breadcrumb-bg: transparent;
+$breadcrumb-padding-x: 2.5%;
+$breadcrumb-active-color: $primary;
+
+// url("data:image/svg+xml,%3C!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0%29--%3E%3Csvg width='10' heigth='10' id='Layer_1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewbox='0 0 4 4' enable-background='new 0 0 40 40' xml:space='preserve'%3E%3Cpolyline fill='none' stroke='%237F7F7F' stroke-width='2.1619' stroke-miterlimit='10' points='38.4,13.8 20,32.2 1.6,13.8 '%3E%3C/polyline%3E%3C/svg%3E");
+$breadcrumb-divider: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='10px' height='10px' x='0px' y='0px' viewBox='0 0 6.1 10.7' enable-background='new 0 0 6.1 10.7' xml:space='preserve'%3E%3Cpolyline fill='none' stroke='%230460A9' stroke-miterlimit='10' points='0.4,0.4 5.4,5.4 0.4,10.4 '/%3E%3C/svg%3E%0A");
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: "/assets/" !default;
