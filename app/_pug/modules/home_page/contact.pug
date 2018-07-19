@@ -1,0 +1,23 @@
+// Contact Section
+.contact.section-invert.py-4
+  h3.section-title.text-center.m-5 Skontaktuj się z nami
+  .container.py-4
+    .row.px-4
+      .contact-form.col-sm-12.col-md-8.col-lg-5.p-4.mb-4.card
+        form
+          .row
+            .col-md-6.col-sm-12
+              .form-group
+                label(for='contactFormFullName') Imię, nazwisko
+                input#contactFormFullName.form-control(type='email', placeholder='Wprowadź imię i nazwisko')
+            .col-md-6.col-sm-12
+              .form-group
+                label(for='contactFormEmail') Adres e-mail
+                input#contactFormEmail.form-control(type='email', placeholder='Wprowadź email')
+          .row
+            .col
+              .form-group
+                label(for='exampleInputEmail1') Wiadomość
+                textarea#exampleInputEmail1.form-control.mb-4(rows='5', placeholder='Wprowadź wiadomość...', name='message')
+          input.btn.btn-info.btn-pill.d-flex.ml-auto.mr-auto(type='submit', value='Wyślij wiadomość')
+// / Contact Section

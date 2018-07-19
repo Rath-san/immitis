@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.9999999999999991 1.7824620573356071 34.012392428023304 27.39285714285711" width="40.00" height="30">
+    <defs>
+        <path d="M15.02 9.39C19.8 18.61 22.46 23.72 22.99 24.75C23.4 25.53 24.45 26.18 25.34 26.18C25.34 26.18 25.34 26.18 25.34 26.18C27.53 26.18 28.74 26.18 28.98 26.18C29.87 26.18 30.26 25.53 29.85 24.75C29.85 24.75 29.85 24.75 29.85 24.75L18.32 3.03L15.02 9.39Z"
+            id="a8Ue02q3"></path>
+        <linearGradient id="gradientb1dkqT0X72" gradientUnits="userSpaceOnUse" x1="27.81" y1="26.89" x2="16.14" y2="5.67">
+            <stop style="stop-color: #1b75bc;stop-opacity: 1" offset="0%"></stop>
+            <stop style="stop-color: #28aae1;stop-opacity: 1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M11.59 15.97L15.02 22.57L18.44 15.97L15.02 9.37L11.59 15.97Z" id="b2cAn23U8M"></path>
+        <linearGradient id="gradienthxdHM9jF4" gradientUnits="userSpaceOnUse" x1="18.66" y1="8.54" x2="14.88" y2="16.24">
+            <stop style="stop-color: #1b75bc;stop-opacity: 1" offset="0%"></stop>
+            <stop style="stop-color: #28aae1;stop-opacity: 1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.16 24.75C-0.25 25.53 0.14 26.18 1.03 26.18C1.03 26.18 1.03 26.18 1.03 26.18C3.22 26.18 4.43 26.18 4.67 26.18C5.56 26.18 6.62 25.53 7.03 24.75C7.03 24.75 7.03 24.75 7.03 24.75L11.58 15.98L8.14 9.37C3.89 17.57 1.23 22.7 0.16 24.75Z"
+            id="a2zjtyW85e"></path>
+        <linearGradient id="gradientb7Xyi0uWns" gradientUnits="userSpaceOnUse" x1="11.6" y1="9.98" x2="2.65" y2="25.77">
+            <stop style="stop-color: #1b75bc;stop-opacity: 1" offset="0%"></stop>
+            <stop style="stop-color: #28aae1;stop-opacity: 1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M6.34 2.78C5.46 2.78 5.07 3.42 5.48 4.21C5.48 4.21 5.48 4.21 5.48 4.21L8.15 9.37L9.41 6.94C10.57 4.7 11.22 3.45 11.35 3.2C10.92 2.94 10.43 2.78 9.99 2.78C9.99 2.78 9.99 2.78 9.99 2.78C8.05 2.78 6.83 2.78 6.34 2.78Z"
+            id="kh0C7ViyL"></path>
+        <linearGradient id="gradientc7vgR27WH" gradientUnits="userSpaceOnUse" x1="9.64" y1="6.22" x2="5.31" y2="3.47">
+            <stop style="stop-color: #6d6f71;stop-opacity: 1" offset="0%"></stop>
+            <stop style="stop-color: #a7a9ac;stop-opacity: 1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g>
+        <g>
+            <use xlink:href="#a8Ue02q3" opacity="1" fill="url(#gradientb1dkqT0X72)"></use>
+            <g>
+                <use xlink:href="#a8Ue02q3" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use>
+            </g>
+        </g>
+        <g>
+            <use xlink:href="#b2cAn23U8M" opacity="1" fill="url(#gradienthxdHM9jF4)"></use>
+            <g>
+                <use xlink:href="#b2cAn23U8M" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use>
+            </g>
+        </g>
+        <g>
+            <use xlink:href="#a2zjtyW85e" opacity="1" fill="url(#gradientb7Xyi0uWns)"></use>
+            <g>
+                <use xlink:href="#a2zjtyW85e" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use>
+            </g>
+        </g>
+        <g>
+            <use xlink:href="#kh0C7ViyL" opacity="1" fill="url(#gradientc7vgR27WH)"></use>
+            <g>
+                <use xlink:href="#kh0C7ViyL" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use>
+            </g>
+        </g>
+    </g>
+</svg>

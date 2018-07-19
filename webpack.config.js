@@ -43,7 +43,7 @@ module.exports = {
             title: appHtmlTitle
         }),
 
-        new FaviconsWebpackPlugin('images/favicon.png')
+        // new FaviconsWebpackPlugin('images/favicon.png')
 
     ],
     module: {
@@ -125,7 +125,7 @@ module.exports = {
 
             // IMAGES
             {
-                test: /\.(jpe?g|png|gif)$/,
+                test: /\.(jpe?g|png|gif|svg)$/,
                 loader: 'file-loader',
                 options: {
                     name: '[path][name].[ext]'

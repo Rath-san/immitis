@@ -9,7 +9,7 @@
 // 2. Vendors
 
 // @import "vendor/normalize";
-// @import "vendor/bootstrap";
+@import "vendor/bootstrap";
 // @import "vendor/scrollbars";
 
 // 3. Base stuff
@@ -40,4 +40,5 @@
 
 // 7. Themes
 
-@import "themes/default";
+// @import "themes/_app-promo";
+@import "themes/shards-extras";
